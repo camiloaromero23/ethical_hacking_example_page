@@ -1,0 +1,54 @@
+.body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	overflow-x: hidden;
+}
+
+button {
+	width: 30%;
+	font-size: 20px;
+	background: rgb(116, 145, 155);
+	border: none;
+	padding: 12px;
+	color: #ffffff;
+	margin-top: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: 'Roboto Slab', serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.container {
+	width: 40vw;
+	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+}
+
+.input_field {
+	margin-bottom: 30px;
+}
+
+.input_field label {
+	display: block;
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.input_field input {
+	width: 100%;
+	font-size: 20px;
+	border-radius: 5px;
+	box-shadow: none;
+	border: 1px solid #dbdbdb;
+	background: #f6f6f6;
+	padding: 10px;
+}
