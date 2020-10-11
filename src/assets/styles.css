@@ -1,11 +1,17 @@
-.body {
+body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto Slab', serif;
 	overflow-x: hidden;
 }
 
+.view {
+	position: absolute;
+	top: 20vh;
+}
+
 button {
+	min-width: 200px;
 	width: 30%;
 	font-size: 20px;
 	background: rgb(116, 145, 155);
@@ -15,7 +21,6 @@ button {
 	margin-top: 20px;
 	border-radius: 20px;
 	cursor: pointer;
-	font-family: 'Roboto Slab', serif;
 }
 
 .center {
@@ -23,9 +28,9 @@ button {
 }
 
 .container {
-	width: 40vw;
-	margin: 0 auto;
-	font-family: 'Roboto Slab', serif;
+	width: 70vw;
+	max-width: 700px;
+	margin: 10vh auto;
 }
 
 .input_field {
@@ -46,9 +51,19 @@ h1 {
 .input_field input {
 	width: 100%;
 	font-size: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: none;
 	border: 1px solid #dbdbdb;
 	background: #f6f6f6;
 	padding: 10px;
+}
+
+.image {
+	display: block;
+	margin: 10vh auto 10vh auto;
+	/* margin-top: 10vh; */
+	/* margin-left: auto; */
+	/* margin-right: auto; */
+	min-width: 180px;
+	width: 50%;
 }
